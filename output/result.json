@@ -1,0 +1,76 @@
+{
+  "image_path": "C:\\Users\\sherl\\OneDrive\\Desktop\\graphology_ai_emotion_detection\\data\\raw\\cvl\\0001-1-9.jpg",
+  "predicted_class": "sad",
+  "confidence": 0.7724548578262329,
+  "attribution_method": "grad",
+  "nlp_fusion_applied": false,
+  "feature_attributions": [
+    {
+      "feature": "stroke_thickness_mean",
+      "attribution": -0.15598472952842712,
+      "rank": 8
+    },
+    {
+      "feature": "stroke_thickness_std",
+      "attribution": -0.2998640537261963,
+      "rank": 6
+    },
+    {
+      "feature": "slant_angle_mean",
+      "attribution": -0.06738346815109253,
+      "rank": 12
+    },
+    {
+      "feature": "slant_angle_std",
+      "attribution": -0.14663416147232056,
+      "rank": 9
+    },
+    {
+      "feature": "inter_letter_spacing_mean",
+      "attribution": -0.18781466782093048,
+      "rank": 7
+    },
+    {
+      "feature": "inter_letter_spacing_std",
+      "attribution": -0.35831838846206665,
+      "rank": 5
+    },
+    {
+      "feature": "baseline_deviation",
+      "attribution": 0.1380983591079712,
+      "rank": 10
+    },
+    {
+      "feature": "loop_density",
+      "attribution": -1.065112829208374,
+      "rank": 2
+    },
+    {
+      "feature": "char_height_mean",
+      "attribution": 0.364576131105423,
+      "rank": 4
+    },
+    {
+      "feature": "char_height_std",
+      "attribution": -0.08821431547403336,
+      "rank": 11
+    },
+    {
+      "feature": "ink_density",
+      "attribution": -0.5765479803085327,
+      "rank": 3
+    },
+    {
+      "feature": "connected_component_count",
+      "attribution": 1.1934738159179688,
+      "rank": 1
+    }
+  ],
+  "probabilities": {
+    "stressed": 0.0023034708574414253,
+    "angry": 0.00104653206653893,
+    "calm": 0.21996177732944489,
+    "sad": 0.7724548578262329,
+    "confident": 0.004233348648995161
+  }
+}
